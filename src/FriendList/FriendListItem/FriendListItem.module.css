@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background-color: #57b446;
+}
+
+.offline {
+  composes: status;
+  background-color: #f24f4b;
+}
+
+.avatar {
+  border: 1px solid #a1abb6;
+  border-radius: 50%;
+}
+
+.name {
+}
