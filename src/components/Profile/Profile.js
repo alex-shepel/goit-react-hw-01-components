@@ -27,8 +27,6 @@ const Profile = props => (
   </div>
 );
 
-export default Profile;
-
 Profile.propTypes = {
   avatar: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
@@ -40,3 +38,5 @@ Profile.propTypes = {
     likes: PropTypes.number.isRequired,
   }).isRequired,
 };
+
+export default Profile;
